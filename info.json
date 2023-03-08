@@ -1,0 +1,67 @@
+{
+    "results":
+    [
+        {
+            "gender":"female",
+            "name":{
+                "title":"Ms",
+                "first":"Rebeca",
+                "last":"Fuentes"
+            },
+            "location":{
+                "street":{
+                    "number":2285,
+                    "name":"Andador Sur Gómez"
+                },
+                "city":"Durango",
+                "state":"Baja California Sur",
+                "country":"Mexico",
+                "postcode":74423,
+                "coordinates":{
+                    "latitude":"8.8878",
+                    "longitude":"121.9887"
+                },
+                "timezone":{
+                    "offset":"+3:00",
+                    "description":"Baghdad, Riyadh, Moscow, St. Petersburg"
+                }
+            },
+            "email":"rebeca.fuentes@example.com",
+            "login":{
+                "uuid":"5e83131b-925d-47e6-add6-fe5b7f2b4e0d",
+                "username":"ticklishgorilla994",
+                "password":"summers",
+                "salt":"Kkt1C7Ak",
+                "md5":"5af805d70c223057daf5d768ffc9a953",
+                "sha1":"0a8b9c11f9e40cbf5077bace329bf3d63d1b6992",
+                "sha256":"462736b002c627de913c1e85d72771d3afea6336529471d5d7674869b678b3fe"
+            },
+            "dob":{
+                "date":"1997-10-16T10:38:09.142Z",
+                "age":25
+            },
+            "registered":{
+                "date":"2009-08-01T14:28:24.215Z",
+                "age":13
+            },
+            "phone":"(649) 172 8087",
+            "cell":"(610) 593 4204",
+            "id":{
+                "name":"NSS",
+                "value":"11 38 28 5033 2"
+            },
+            "picture":{
+                "large":"https://randomuser.me/api/portraits/women/72.jpg",
+                "medium":"https://randomuser.me/api/portraits/med/women/72.jpg",
+                "thumbnail":"https://randomuser.me/api/portraits/thumb/women/72.jpg"
+            },
+            "nat":"MX"
+        }
+    ],
+    "info":{
+        "seed":"6bb05ae6a0f0e50f",
+        "results":1,
+        "page":1,
+        "version":"1.4"
+    }
+}

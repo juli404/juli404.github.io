@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>CV-Rebeca Fuentes</title>
+</head>
+<body>
+
+    <label class="switch_tema">
+        <input type="checkbox" checked id="check">
+        <span class="deslizable"></span>
+    </label>
+    
+    <div class="presentación">
+        <h1>HOLA! SOY REBECA,</h1>
+        <h3>Desarrolladora Web</h3>
+    </div>
+
+    <div class="contenedorImagen">
+        <img src="https://randomuser.me/api/portraits/women/72.jpg" alt="Foto de perfil de Rebeca Fuentes">
+    </div>
+    
+        
+   <div class="bar_nav">
+    <nav>
+        <a href="#info">INFORMACIÓN PERSONAL</a>
+        <a href="#habilidades">HABILIDADES</a>
+        <a href="#exp">EXPERIENCIA</a>
+        <a href="#contact">CONTACTO</a>
+    </nav>
+   </div> 
+
+   <div class="info">
+    <h4 id="info">INFORMACIÓN PERSONAL</h4>
+    <ul>
+        <li>Nombre y Apellido: Rebeca Fuentes</li>
+        <li>Edad: 25</li>
+        <li>Fecha de Nacimiento: 1997-10-16</li>
+        <li>Dirección: Andador Sur Gómez, Durango, Baja California Sur, México</li>
+    </ul>
+   </div>
+   
+   <div class="info">
+    <h4 id="habilidades">HABILIDADES</h4>
+    <ul>
+        <li>Desarrollo Web, especialmente front-end</li>
+    </ul>
+   </div>
+
+   <div class="info">
+    <h4 id="exp">EXPERIENCIA</h4>
+    <ul>
+        <li>Estoy buscando tenr mi primera experiencia oficial como desarrolladora web!</li>
+    </ul>
+   </div>
+
+   <div class="info">
+    <h4 id="contact">CONTACTO</h4>
+    <ul>
+        <li>E-mail: rebeca.fuentes@example.com</li>
+        <li>Teléfono: (649) 172 8087</li>
+        <li>Móvil: (610) 593 4204</li>
+    </ul>
+
+    <form action="" method="post" id="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre aquí">
+        
+        <label for="mail">E-mail:</label>
+        <input type="email" name="mail" id="mail" placeholder="Ingrese su e-mail aquí">
+
+        <label for="asunto">Asunto:</label>
+        <input type="text" name="asunto" id="asunto" placeholder="Ingrese el asunto aquí">
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+
+        <input type="submit" id="enviar" value="Enviar">
+    </form>
+    <button type="button" id="boton_formulario" class="boton">Contactame</button>
+
+   </div>
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>
